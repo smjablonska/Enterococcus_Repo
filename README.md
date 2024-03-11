@@ -6,10 +6,10 @@ This project was compiled by Sandra Jablonska, Gracec Chilton, and Ken Sandoval 
 All are part of the Bioinformatics Program at Loyola University Chicago.
 
 
-##**Overview:**
+**Overview:**
 
 
-##**Goals & Non-Goals:**
+**Goals & Non-Goals:**
 
 Build a quality pipeline that prepares a phylogenetic tree from taxonomic names or metagenomic raw reads
 Document the process with step-by-step instructions
