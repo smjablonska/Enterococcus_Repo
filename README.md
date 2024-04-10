@@ -1,2 +1,1 @@
-`#cf4127`
-Hello!
+# Hello!
