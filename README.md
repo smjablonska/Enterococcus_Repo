@@ -16,7 +16,7 @@
 ### ^ Navigate through home/ARA-main/ and look at what is in the directory. Adjust where you want the example data to be by using cp command. 
 
 ### From host to docker
-'''docker cp Enterococcus_Run.txt ARA_EF:/home/ARA-main/Enterococcus_Run.txt'''
+```docker cp Enterococcus_Run.txt ARA_EF:/home/ARA-main/Enterococcus_Run.txt```
 
 ### From docker to host
-'''docker cp ARA_EF:/results/. home/user/ARA-main/results'''
+```docker cp ARA_EF:/results/. home/user/ARA-main/results```
