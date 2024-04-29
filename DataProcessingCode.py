@@ -1,11 +1,11 @@
 import argparse
 import csv
 import pandas as pd
- 
+
 def count_isolations(data):
     isolation_counts = {}
     for row in data:
-        isolation_source = row[48] # to be changed later 
+        isolation_source = row[3] # to be changed later 
         if isolation_source in isolation_counts:
             isolation_counts[isolation_source] += 1
         else:
