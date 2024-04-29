@@ -15,7 +15,7 @@
 
 ### ^ Navigate through home/ARA-main/ and look at what is in the directory. Adjust where you want the example data to be by using cp command. 
 
-### From host to docker. *Need to be in host directory* 
+### From host to docker -- *Need to be in host directory*. 
 ```docker cp Enterococcus_Run.txt ARA_EF:/home/ARA-main/Enterococcus_Run.txt```
 
 ### Once everything is uploaded run ARA pipeline inside docker. Input can be SRA IDS or SRARunInfo and sequences are what you query against. 
