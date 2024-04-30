@@ -67,10 +67,13 @@
 
     `docker exec -it ARA_EF /bin/sh`
 
-### ^ Navigate through home/ARA-main/ and look at what is in the directory. Adjust where you want the example data to be by using cp command. 
+* Upload the correct files to the docker
 
-### From host to docker -- *Need to be in host directory*. 
-```docker cp Enterococcus_Run.txt ARA_EF:/home/ARA-main/Enterococcus_Run.txt```
+    * You will need the list of SRA numbers of the genomes you are searching against, and the sequences that you are searching for
+
+    * The following example command is copying the list of E. faecalis SRA genomes that we are searching for our phage sequence in
+
+        `docker cp Enterococcus_Run.txt ARA_EF:/home/ARA-main/Enterococcus_Run.txt`
 
 ### Once everything is uploaded run ARA pipeline inside docker. Input can be SRA IDS or SRARunInfo and sequences are what you query against. 
 ```./ara.pl --input /home/ARA-main/Enterococcus_Run.txt --sequences /home/ARA-main/MZ.fa```
