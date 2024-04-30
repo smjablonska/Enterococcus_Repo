@@ -11,6 +11,13 @@ Computational Biology | Spring 2024 | Dr. Heather E. Wheeler
 
 ## Overview 
  This Repo is dedicated to utilizing the Automated Records Analysis Pipeline to search publicly available Enterococcus faecalis genomes for phages of interest.
+
+This is a diagram depiction of how the Pipeline runs. 
+
+ ![324483509-7a583a39-71cf-4a55-9e5c-70a8fee0a112](https://github.com/smjablonska/Enterococcus_Repo/assets/120067807/ae1ce7a0-e25f-4c28-93ab-ba255c2cc9de)
+
+The goal of this pipeline is to (Leaving off here) 
+
 ## Getting Started
 
 * To clone this directory, run the following on the command line:
@@ -21,7 +28,7 @@ Computational Biology | Spring 2024 | Dr. Heather E. Wheeler
 
     https://www.python.org/downloads/
 
-* If you do not have R installed, follow the instrutions on this page:
+* If you do not have R installed, follow the instructions on this page:
 
     https://rstudio-education.github.io/hopr/starting.html
 
@@ -113,7 +120,7 @@ Computational Biology | Spring 2024 | Dr. Heather E. Wheeler
 
 * A list of SRA accession numbers of genomes that contain the specified query sequence: `Filtered_data.csv`
 
-* A list of the isolation sites of the genomes that contain the specified query sequeces, along with the number of times each isolation site occurs: `isolation_counts.csv`
+* A list of the isolation sites of the genomes that contain the specified query sequences, along with the number of times each isolation site occurs: `isolation_counts.csv`
 
 * A bar plot to visualize the data included in `isolation_counts.csv`: `isolation_counts.png`
 
