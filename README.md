@@ -103,7 +103,8 @@ Computational Biology | Spring 2024 | Dr. Heather E. Wheeler
     `python3 wrapper.py -s MZ.screening.analysis.stats.sorted.by.alignment.txt -o chi_square_analysis.tsv`
 
     ```
-    -s, --screening_analysis: the screening analysis file output from the ARA pipeline, contains information about the Blast and Bowtie2 runs
+    -s, --screening_analysis: the screening analysis file output from the ARA pipeline, 
+    contains information about the Blast and Bowtie2 runs
     ```
 
     * This command outputs the results of a chi-squared analysis on the abundancies of each isolation source of the genomes that contain the query sequence.
