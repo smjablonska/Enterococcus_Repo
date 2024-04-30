@@ -40,7 +40,7 @@
 
 * You will need the following R packages:
 
-    #0f0[readr]
+    readr
 
     stats
 
