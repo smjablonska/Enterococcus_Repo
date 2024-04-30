@@ -1,5 +1,17 @@
 # Hello, Welcome to the Enterococcus README!
 
+Created by: Sandra Jablonska, Grace Chilton, and Ken Sandoval
+# Loyola University Of Chicago: Department of Bioinformatics 
+
+![687474703a2f2f7777772e6c75632e6564752f6d656469612f686f6d652f696d616765732f6c6f796f6c612d6c6f676f2d7461672e706e67](https://github.com/smjablonska/Enterococcus_Repo/assets/120067807/6a50791f-9579-4875-972c-1c8c8dbebfa9)
+
+COMP 383: Final Project
+
+Computational Biology | Spring 2024 | Dr. Heather E. Wheeler
+
+## Overview 
+ This Repo is dedicated to utilizing Magic BLAST with a docker to search for the 
+
 ## Getting Started
 
 * To clone this directory, run the following on the command line:
