@@ -57,14 +57,15 @@
 
     * Make an image using the following command:
 
-    `docker build -t ara_img .`
+        `docker build -t ara_img .`
 
-### Force the docker to run with a static name that is associated with the image made previously. 
+* Open the docker terminal with following command, note this is creating a container named ARA_EF:
 
-```docker run -t -d --name ARA_EF ara_img```
+    `docker run -t -d --name ARA_EF ara_img`
 
-### Call the docker. 
-```docker exec -it ARA_EF /bin/sh```
+* Call the docker
+
+    `docker exec -it ARA_EF /bin/sh`
 
 ### ^ Navigate through home/ARA-main/ and look at what is in the directory. Adjust where you want the example data to be by using cp command. 
 
