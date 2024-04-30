@@ -1,6 +1,8 @@
 import argparse
 import csv
 import pandas as pd
+import matplotlib.pyplot as plt
+import numpy as np
  
 ##This def function will read through the data and count the occurences of each isolation source in Row 49, isolation_source. 
 # The row number may need to be changed depending on the the intial dataset. 
@@ -34,4 +36,14 @@ if __name__ == "__main__":
         data = list(reader)
 
     counts = count_isolations(data) 
+    sources = list(counts.keys())
+    abundancies = list(counts.values())
+    fig = plt.figure(figsize = (10,5))
+
+    #creating the bar plot
+    plt.bar(sources,abundancies, color='maroon', width=0.4)
+    plt.xlabel('Isolation sources')
+    plt.ylabel('Counts')
+    plt.title("Isolation Site counts")
+    plt.savefig("isolation_counts.png")
     save_chi_square_data(counts, args.output_file)
