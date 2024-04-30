@@ -75,10 +75,12 @@
 
         `docker cp Enterococcus_Run.txt ARA_EF:/home/ARA-main/Enterococcus_Run.txt`
 
-### Once everything is uploaded run ARA pipeline inside docker. Input can be SRA IDS or SRARunInfo and sequences are what you query against. 
-```./ara.pl --input /home/ARA-main/Enterococcus_Run.txt --sequences /home/ARA-main/MZ.fa```
+* Once you have uploaded everything, run the ARA pipeline inside the docker
 
-### Once results are outputted, copy them to your host directory through the cp command. 
+    * The input can be SRA IDs or the SRARunInfo from NCBI and the sequences that you are using to query these genomes
 
-### From docker to host.
-```docker cp ARA_EF:/results/. home/user/ARA-main/results```
+        `./ara.pl --input /home/ARA-main/Enterococcus_Run.txt --sequences /home/ARA-main/MZ.fa`
+
+* When the pipeline is finished running, copy the results to your directory using the following command:
+
+    `docker cp ARA_EF:/results/. home/user/ARA-main/results`
