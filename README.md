@@ -8,7 +8,7 @@
 
 * If you do not have Python installed, follow the instructions on this page:
 
-https://www.python.org/downloads/
+    https://www.python.org/downloads/
 
 # ARA Pipeline installation should follow the respective github of the authors. 
 
