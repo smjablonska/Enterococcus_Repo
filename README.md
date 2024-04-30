@@ -9,6 +9,9 @@ COMP 383: Final Project
 
 Computational Biology | Spring 2024 | Dr. Heather E. Wheeler
 
+## Overview 
+ This Repo is dedicated to utilizing Magic BLAST with a docker to search for the 
+
 ## Getting Started
 
 * To clone this directory, run the following on the command line:
