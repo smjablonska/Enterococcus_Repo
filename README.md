@@ -100,7 +100,7 @@ Computational Biology | Spring 2024 | Dr. Heather E. Wheeler
 
 * Run the following on the command line in the Enterococcus_Repo directory:
 
-    `python3 wrapper.py -s MZ.screening.analysis.stats.sorted.by.alignment.txt -o chi_square_analysis.tsv`
+    `python3 wrapper.py -s MZ.screening.analysis.stats.sorted.by.alignment.txt`
 
     ```
     -s, --screening_analysis: the screening analysis file output from the ARA pipeline, 
@@ -108,3 +108,13 @@ Computational Biology | Spring 2024 | Dr. Heather E. Wheeler
     ```
 
     * This command outputs the results of a chi-squared analysis on the abundancies of each isolation source of the genomes that contain the query sequence.
+
+# What Does This Pipeline Output?
+
+* A list of SRA accession numbers of genomes that contain the specified query sequence: `Filtered_data.csv`
+
+* A list of the isolation sites of the genomes that contain the specified query sequeces, along with the number of times each isolation site occurs: `isolation_counts.csv`
+
+* A bar plot to visualize the data included in `isolation_counts.csv`: `isolation_counts.png`
+
+* The results of the chi-square analysis of the data included in `isolation_counts.csv`
