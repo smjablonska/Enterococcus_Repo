@@ -84,3 +84,5 @@
 * When the pipeline is finished running, copy the results to your directory using the following command:
 
     `docker cp ARA_EF:/results/. home/user/ARA-main/results`
+
+## Step Two: Filtering and Statistics
