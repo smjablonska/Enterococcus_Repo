@@ -5,7 +5,6 @@ library(data.table)
 
 parser <- ArgumentParser()
 parser$add_argument("-f", "--file", help = "CSV file path", type = "character", required = TRUE)
-parser$add_argument("-o", "--outfile", help = "CSV file path", type = "character", required = TRUE)
 args <- parser$parse_args()
 
 data <- read.csv(args$file) # this will read in the data from the input file
@@ -15,5 +14,3 @@ chisq_result <- chisq.test(data$Observed_Frequency) #This will perform a goodnes
 cat("Chi-square test result:\n") # this will print as the header of the output. 
 print(chisq_result)
 print(data) # this will print the orignal data in place of a contingency table. 
-
-fwrite(chisq_result, args$outfile,sep="\t")
