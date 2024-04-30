@@ -10,8 +10,7 @@ COMP 383: Final Project
 Computational Biology | Spring 2024 | Dr. Heather E. Wheeler
 
 ## Overview 
- This Repo is dedicated to utilizing Magic BLAST with a docker to search for the 
-
+ This Repo is dedicated to utilizing the Automated Records Analysis Pipeline to search publicly available Enterococcus faecalis genomes for phages of interest.
 ## Getting Started
 
 * To clone this directory, run the following on the command line:
@@ -98,3 +97,7 @@ Computational Biology | Spring 2024 | Dr. Heather E. Wheeler
     `docker cp ARA_EF:/results/. home/user/ARA-main/results`
 
 # Step Two: Filtering and Statistics
+
+* Run the following on the command line in the Enterococcus_Repo directory:
+
+`python3 wrapper.py -s MZ.screening.analysis.stats.sorted.by.alignment.txt -o chi_square_analysis.tsv`
