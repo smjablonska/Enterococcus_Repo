@@ -7,7 +7,7 @@ import pandas as pd
 def count_isolations(data):
     isolation_counts = {}
     for row in data:
-        isolation_source = row[49] # to be changed if needed
+        isolation_source = row[3] # to be changed if needed
         if isolation_source in isolation_counts:
             isolation_counts[isolation_source] += 1 # this will add a +1 count to the isolation source if it already exsists in the dictionary
         else:
