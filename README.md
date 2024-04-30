@@ -40,14 +40,14 @@
 
 * You will need the following R packages:
 
-    readr
+    <code style="color : aqua">readr</code>
 
     stats
 
     argparse
 
 
-# Step One: The ARA Pipeline
+# Step One: The Automated Record Analysis (ARA) Pipeline
 
 ARA Pipeline installation should follow the directions on [this GitHub](https://github.com/maurya-anand/ARA/tree/main)
 
