@@ -10,7 +10,46 @@
 
     https://www.python.org/downloads/
 
-# ARA Pipeline installation should follow the respective github of the authors. 
+* If you do not have R installed, follow the instrutions on this page:
+
+    https://rstudio-education.github.io/hopr/starting.html
+
+* If you do not have Docker installed, follow the instructions on this page:
+
+    https://docs.docker.com/get-docker/
+
+## Make sure you have the following dependencies:
+
+* The following libraries are part of the standard library of Python version 2.7 or later:
+
+    argparse
+    
+    os
+
+    sys
+
+    csv
+
+* You will need to install the following Python libraries:
+
+    pandas
+
+    matplotlib
+
+    numpy
+
+* You will need the following R packages:
+
+    readr
+
+    stats
+
+    argparse
+
+
+# Step One: The ARA Pipeline
+
+ARA Pipeline installation should follow the directions on [this GitHub](https://github.com/maurya-anand/ARA/tree/main)
 
 ### After installation of ARA pipeline, go into the ARA-main folder in host directory and make an image. ara_img can be replaced with another name.  
 
