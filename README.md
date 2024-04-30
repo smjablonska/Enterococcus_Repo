@@ -85,4 +85,4 @@
 
     `docker cp ARA_EF:/results/. home/user/ARA-main/results`
 
-## Step Two: Filtering and Statistics
+# Step Two: Filtering and Statistics
