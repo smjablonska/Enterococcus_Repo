@@ -53,11 +53,11 @@
 
     * We utilize the Docker installation method in this GitHub!!
 
-* After installation of the ARA pipeline
+* After installation of the ARA pipeline, navigate to the ARA-main folder in your directory
 
-### After installation of ARA pipeline, go into the ARA-main folder in host directory and make an image. ara_img can be replaced with another name.  
+    * Make an image using the following command:
 
-```docker build -t ara_img . ```
+    `docker build -t ara_img .`
 
 ### Force the docker to run with a static name that is associated with the image made previously. 
 
