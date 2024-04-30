@@ -51,7 +51,7 @@
 
 * ARA Pipeline installation should follow the directions on [this GitHub](https://github.com/maurya-anand/ARA/tree/main)
 
-* * We utilize the Docker installation method in this GitHub!!
+    * We utilize the Docker installation method in this GitHub!!
 
 * After installation of the ARA pipeline
 
