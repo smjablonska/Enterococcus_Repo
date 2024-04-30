@@ -1,5 +1,15 @@
 # Hello, Welcome to the Enterococcus README!
-## 🚧 🚧 🚧 CAUTION: This README is under construction 🚧 🚧 🚧
+
+## Getting Started
+
+* To clone this directory, run the following on the command line:
+
+`git clone https://github.com/smjablonska/Enterococcus_Repo.git`
+
+* If you do not have Python installed, follow the instructions on this page:
+
+https://www.python.org/downloads/
+
 # ARA Pipeline installation should follow the respective github of the authors. 
 
 ### After installation of ARA pipeline, go into the ARA-main folder in host directory and make an image. ara_img can be replaced with another name.  
