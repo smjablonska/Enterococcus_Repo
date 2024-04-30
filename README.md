@@ -4,7 +4,7 @@
 
 * To clone this directory, run the following on the command line:
 
-`git clone https://github.com/smjablonska/Enterococcus_Repo.git`
+    `git clone https://github.com/smjablonska/Enterococcus_Repo.git`
 
 * If you do not have Python installed, follow the instructions on this page:
 
