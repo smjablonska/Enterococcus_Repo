@@ -1,6 +1,20 @@
 # Filtering script
 import pandas as pd
-df = pd.read_csv("CP.screening.analysis.stats.sorted.by.alignment.txt",sep="\t")
+import argparse #import the necessary libraries
+import sys
+
+#function to parse command line arguments
+def check_args(args=None):
+    parser = argparse.ArgumentParser(description='Filtering script')
+    parser.add_argument('-s', '--screening_analysis',help='path to input file', required='True')
+    parser.add_argument('-o','--output',help='path to output file', required='True')
+    return parser.parse_args(args)
+
+#retrieve command line arguments and assign to variables
+args = check_args(sys.argv[1:])
+infile = args.screening_analysis
+outfile = args.output
+df = pd.read_csv(infile,sep="\t")
 df = pd.DataFrame(df)
 # Filtering data on alignment rate in Bowtie2
 # Only keeping unique hit percentages above 1.0
