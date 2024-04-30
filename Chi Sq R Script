@@ -16,4 +16,4 @@ cat("Chi-square test result:\n") # this will print as the header of the output.
 print(chisq_result)
 print(data) # this will print the orignal data in place of a contingency table. 
 
-fwrite(data, args$outfile,sep="\t")
+fwrite(chisq_result, args$outfile,sep="\t")
