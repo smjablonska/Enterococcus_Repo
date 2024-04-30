@@ -40,7 +40,7 @@
 
 * You will need the following R packages:
 
-    <code style="color : aqua">readr</code>
+    $${\color{red}readr}$$
 
     stats
 
