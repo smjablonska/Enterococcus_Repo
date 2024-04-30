@@ -49,7 +49,11 @@
 
 # Step One: The Automated Record Analysis (ARA) Pipeline
 
-ARA Pipeline installation should follow the directions on [this GitHub](https://github.com/maurya-anand/ARA/tree/main)
+* ARA Pipeline installation should follow the directions on [this GitHub](https://github.com/maurya-anand/ARA/tree/main)
+
+* * We utilize the Docker installation method in this GitHub!!
+
+* After installation of the ARA pipeline
 
 ### After installation of ARA pipeline, go into the ARA-main folder in host directory and make an image. ara_img can be replaced with another name.  
 
