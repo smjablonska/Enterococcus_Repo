@@ -24,4 +24,4 @@ os.system("python3 DataProcessingCode.py Filtered_data.csv isolation_counts.csv"
 
 # Running statistics script
 
-os.system("Rscript Chi\ Sq\ R\ Script -f isolation_counts.csv")
+os.system("Rscript Chi\ Sq\ R\ Script -f isolation_counts.csv -o {}".format(outfile))
