@@ -34,8 +34,9 @@ The goal of this pipeline is to determine if E. faecalis is a biomarker of the u
 
 
 ## Getting Started
+
 <div id="header" align="center">
-  <img src="https://media.giphy.com/media/r0nWy7rvpDdMekzf4u/giphy.gif?cid=ecf05e47w2t9tpnyl9euw7fobw2kjdsuvwy1a3fmc18kqtnp&ep=v1_gifs_search&rid=giphy.gif&ct=g"/>
+  <img src="https://media.giphy.com/media/3o7btSQvfKibGpkk9i/giphy.gif?cid=ecf05e47w2t9tpnyl9euw7fobw2kjdsuvwy1a3fmc18kqtnp&ep=v1_gifs_search&rid=giphy.gif&ct=g"/>
 </div>
 
 * To clone this directory, run the following on the command line:
