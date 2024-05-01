@@ -112,19 +112,19 @@ The goal of this pipeline is to determine if E. faecalis is a biomarker of the u
 
     * You will need the list of SRA numbers of the genomes you are searching against, and the sequences that you are searching for
 
-    * The following example command is copying the list of E. faecalis subsampled SRA genomes that we are searching for our phage sequence in
+    * The following example command is copying the list of _E. faecalis_ subsampled SRA genomes that we are searching for our phage sequence in
 
-        `docker cp Enterococcus_Run.txt ARA_EF:/home/ARA-main/Enterococcus_Run.txt`
+        `docker cp 100Run.txt ARA_EF:/home/ARA-main/100Run.txt`
 
 * Once you have uploaded everything, run the ARA pipeline inside the docker
 
     * The input can be SRA IDs or the SRARunInfo from NCBI and the sequences that you are using to query these genomes
 
-        `./ara.pl --input /home/ARA-main/Enterococcus_Run.txt --sequences /home/ARA-main/MZ.fa`
+        `./ara.pl --input /home/ARA-main/100Run.txt --sequences /home/ARA-main/MZ.fa`
 
 * When the pipeline is finished running, copy the results to your directory using the following command:
 
-    `docker cp ARA_EF:/results/. home/user/ARA-main/results`
+    `docker cp ARA_EF:/results/. home/username/ARA-main/results`
 
 # Step Two: Filtering and Statistics
 
