@@ -21,7 +21,7 @@ Computational Biology | Spring 2024 | Dr. Heather E. Wheeler
 * [Step One: The Automated Record Analysis (ARA) Pipeline](https://github.com/smjablonska/Enterococcus_Repo?tab=readme-ov-file#step-one-the-automated-record-analysis-ara-pipeline)
 * [Step Two: Filtering and Statistics](https://github.com/smjablonska/Enterococcus_Repo?tab=readme-ov-file#step-two-filtering-and-statistics)
 * [What Does This Pipeline Output?](https://github.com/smjablonska/Enterococcus_Repo?tab=readme-ov-file#what-does-this-pipeline-output)
-* [Click on this Link Dr. Wheeler](https://github.com/smjablonska/Enterococcus_Repo?tab=readme-ov-file#to-test-this-pipelinedr-wheeler)
+* [Click on this Link Dr. Wheeler](https://github.com/smjablonska/Enterococcus_Repo?tab=readme-ov-file#testing-this-pipeline)
 
 
 ## Overview 
