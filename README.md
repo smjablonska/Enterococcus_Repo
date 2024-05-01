@@ -125,3 +125,7 @@ The goal of this pipeline is to (Leaving off here)
 * A bar plot to visualize the data included in `isolation_counts.csv`: `isolation_counts.png`
 
 * The results of the chi-square analysis of the data included in `isolation_counts.csv`
+
+# To test this pipeline....Dr. Wheeler
+
+* Take the output 100MZ.screening.analysis.stats.sorted.by.alignment.txt and run it through Step Two. 
