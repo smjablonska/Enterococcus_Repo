@@ -9,6 +9,9 @@ COMP 383: Final Project
 
 Computational Biology | Spring 2024 | Dr. Heather E. Wheeler
 
+## Table of Contents 
+
+
 ## Overview 
  This Repo is dedicated to utilizing the Automated Records Analysis Pipeline to search publicly available Enterococcus faecalis genomes for phages of interest.
 
@@ -16,7 +19,8 @@ This is a diagram depiction of how the Pipeline runs.
 
  ![324483509-7a583a39-71cf-4a55-9e5c-70a8fee0a112](https://github.com/smjablonska/Enterococcus_Repo/assets/120067807/ae1ce7a0-e25f-4c28-93ab-ba255c2cc9de)
 
-The goal of this pipeline is to (Leaving off here) 
+The goal of this pipeline is to determine if E. faecalis is a biomarker of the urinary environment. This result will provide a reason for a larger, in-depth investigation into the relationship of E. faecalis  and Urinary tract infections. Investigating how prophages interact in different microbiomes can help us understand the beginnings of infections and help with the prevention and treatment of certain infections. 
+
 
 ## Getting Started
 
