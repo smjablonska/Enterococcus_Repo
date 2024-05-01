@@ -89,7 +89,7 @@ The goal of this pipeline is to (Leaving off here)
 
     * You will need the list of SRA numbers of the genomes you are searching against, and the sequences that you are searching for
 
-    * The following example command is copying the list of E. faecalis SRA genomes that we are searching for our phage sequence in
+    * The following example command is copying the list of E. faecalis subsampled SRA genomes that we are searching for our phage sequence in
 
         `docker cp Enterococcus_Run.txt ARA_EF:/home/ARA-main/Enterococcus_Run.txt`
 
