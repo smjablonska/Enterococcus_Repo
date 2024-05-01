@@ -10,7 +10,13 @@ COMP 383: Final Project
 Computational Biology | Spring 2024 | Dr. Heather E. Wheeler
 
 ## Table of Contents 
-* [OverView](https://github.com/smjablonska/Enterococcus_Repo#overview)
+* [Overview](https://github.com/smjablonska/Enterococcus_Repo#overview)
+* [Getting Started](https://github.com/smjablonska/Enterococcus_Repo#getting-started)
+* [Make sure you have the following Dependencies](https://github.com/smjablonska/Enterococcus_Repo#make-sure-you-have-the-following-dependencies)
+* [Step One: The Automated Record Analysis (ARA) Pipeline](https://github.com/smjablonska/Enterococcus_Repo?tab=readme-ov-file#step-one-the-automated-record-analysis-ara-pipeline)
+* [Step Two: Filtering and Statistics](https://github.com/smjablonska/Enterococcus_Repo?tab=readme-ov-file#step-two-filtering-and-statistics)
+* [What Does This Pipeline Output?](https://github.com/smjablonska/Enterococcus_Repo?tab=readme-ov-file#what-does-this-pipeline-output)
+* [Click on this Link Dr. Wheeler](https://github.com/smjablonska/Enterococcus_Repo?tab=readme-ov-file#to-test-this-pipelinedr-wheeler)
 
 
 ## Overview 
