@@ -92,6 +92,8 @@ The goal of this pipeline is to determine if E. faecalis is a biomarker of the u
 
     * We utilize the Docker installation method in this GitHub!!
 
+    * This step may take a while, depending on how many genomes you are searching against. We recommend skipping to the testing portion of this GitHub if you would like to quickly test this pipeline! 
+
 * After installation of the ARA pipeline, navigate to the ARA-main folder in your directory
 
     * Make an image using the following command:
@@ -150,7 +152,11 @@ The goal of this pipeline is to determine if E. faecalis is a biomarker of the u
 
 * The results of the chi-square analysis of the data included in `isolation_counts.csv`
 
-# To test this pipeline....Dr. Wheeler
+# Testing This Pipeline!
+
+* The following command will run Step Two of this pipeline, the filtering and statistics step, with 100 E. faecalis genomes and the phages of interest:
+
+    `python3 wrapper.py -s MZ.screening.analysis.stats.sorted.by.alignment.txt`
 
 * Take the output 100MZ.screening.analysis.stats.sorted.by.alignment.txt and run it through Step Two.
 
