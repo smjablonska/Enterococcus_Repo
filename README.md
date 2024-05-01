@@ -10,7 +10,7 @@ COMP 383: Final Project
 Computational Biology | Spring 2024 | Dr. Heather E. Wheeler
 
 ## Table of Contents 
-* (https://github.com/smjablonska/Enterococcus_Repo#overview "Overview")
+* [OverView](https://github.com/smjablonska/Enterococcus_Repo#overview)
 
 
 ## Overview 
