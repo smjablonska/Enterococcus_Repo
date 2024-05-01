@@ -151,6 +151,3 @@ The goal of this pipeline is to determine if E. faecalis is a biomarker of the u
 
 * Take the output 100MZ.screening.analysis.stats.sorted.by.alignment.txt and run it through Step Two.
 
-  <div id="header" align="center">
-  <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExYmE0cjEzZDBoNGhlbHk0eDVnb2dsMGt3OWl0bzFnd3g5ZXJka3dxbiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/l0IyokIkZEXvWnXGw/giphy.gif"/>
-</div>
