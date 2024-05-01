@@ -23,6 +23,7 @@ Computational Biology | Spring 2024 | Dr. Heather E. Wheeler
 <div id="header" align="center">
   <img src="https://media.giphy.com/media/3oKIPuto4d3TEpfSbC/giphy.gif?cid=790b7611ba4r13d0h4hely4x5gogl0kw9ito1gwx9erdkwqn&ep=v1_gifs_search&rid=giphy.gif&ct=g"/>
 </div>
+
  This Repo is dedicated to utilizing the Automated Records Analysis Pipeline to search publicly available Enterococcus faecalis genomes for phages of interest.
 
 This is a diagram depiction of how the Pipeline runs. 
@@ -33,6 +34,9 @@ The goal of this pipeline is to determine if E. faecalis is a biomarker of the u
 
 
 ## Getting Started
+<div id="header" align="center">
+  <img src="https://media.giphy.com/media/r0nWy7rvpDdMekzf4u/giphy.gif?cid=ecf05e47w2t9tpnyl9euw7fobw2kjdsuvwy1a3fmc18kqtnp&ep=v1_gifs_search&rid=giphy.gif&ct=g"/>
+</div>
 
 * To clone this directory, run the following on the command line:
 
@@ -131,6 +135,9 @@ The goal of this pipeline is to determine if E. faecalis is a biomarker of the u
     * This command outputs the results of a chi-squared analysis on the abundancies of each isolation source of the genomes that contain the query sequence.
 
 # What Does This Pipeline Output?
+<div id="header" align="center">
+  <img src="https://media.giphy.com/media/iwnkdnExj1i92/giphy.gif?cid=ecf05e47w2t9tpnyl9euw7fobw2kjdsuvwy1a3fmc18kqtnp&ep=v1_gifs_search&rid=giphy.gif&ct=g"/>
+</div>
 
 * A list of SRA accession numbers of genomes that contain the specified query sequence: `Filtered_data.csv`
 
@@ -142,4 +149,8 @@ The goal of this pipeline is to determine if E. faecalis is a biomarker of the u
 
 # To test this pipeline....Dr. Wheeler
 
-* Take the output 100MZ.screening.analysis.stats.sorted.by.alignment.txt and run it through Step Two. 
+* Take the output 100MZ.screening.analysis.stats.sorted.by.alignment.txt and run it through Step Two.
+
+  <div id="header" align="center">
+  <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExYmE0cjEzZDBoNGhlbHk0eDVnb2dsMGt3OWl0bzFnd3g5ZXJka3dxbiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/l0IyokIkZEXvWnXGw/giphy.gif"/>
+</div>
