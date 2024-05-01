@@ -158,5 +158,3 @@ The goal of this pipeline is to determine if E. faecalis is a biomarker of the u
 
     `python3 wrapper.py -s MZ.screening.analysis.stats.sorted.by.alignment.txt`
 
-* Take the output 100MZ.screening.analysis.stats.sorted.by.alignment.txt and run it through Step Two.
-
