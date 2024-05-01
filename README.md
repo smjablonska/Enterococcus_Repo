@@ -154,7 +154,7 @@ The goal of this pipeline is to determine if E. faecalis is a biomarker of the u
 
 # Testing This Pipeline!
 
-* The following command will run Step Two of this pipeline, the filtering and statistics step, with 100 E. faecalis genomes and the phages of interest:
+* The following command will run Step Two of this pipeline, the filtering and statistics step, with 100 _E. faecalis_ genomes and the phages of interest:
 
     `python3 wrapper.py -s MZ.screening.analysis.stats.sorted.by.alignment.txt`
 
