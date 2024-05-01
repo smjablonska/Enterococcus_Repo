@@ -5,6 +5,7 @@ Created by: Sandra Jablonska, Grace Chilton, and Ken Sandoval
 <div id="header" align="center">
   <img src="https://media.giphy.com/media/3oKIPuto4d3TEpfSbC/giphy.gif?cid=790b7611ba4r13d0h4hely4x5gogl0kw9ito1gwx9erdkwqn&ep=v1_gifs_search&rid=giphy.gif&ct=g"/>
 </div>
+
 ## Loyola University Of Chicago: Department of Bioinformatics 
 
 ![687474703a2f2f7777772e6c75632e6564752f6d656469612f686f6d652f696d616765732f6c6f796f6c612d6c6f676f2d7461672e706e67](https://github.com/smjablonska/Enterococcus_Repo/assets/120067807/6a50791f-9579-4875-972c-1c8c8dbebfa9)
