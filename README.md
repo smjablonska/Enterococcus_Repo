@@ -20,6 +20,9 @@ Computational Biology | Spring 2024 | Dr. Heather E. Wheeler
 
 
 ## Overview 
+<div id="header" align="center">
+  <img src="https://media.giphy.com/media/3oKIPuto4d3TEpfSbC/giphy.gif?cid=790b7611ba4r13d0h4hely4x5gogl0kw9ito1gwx9erdkwqn&ep=v1_gifs_search&rid=giphy.gif&ct=g"/>
+</div>
  This Repo is dedicated to utilizing the Automated Records Analysis Pipeline to search publicly available Enterococcus faecalis genomes for phages of interest.
 
 This is a diagram depiction of how the Pipeline runs. 
